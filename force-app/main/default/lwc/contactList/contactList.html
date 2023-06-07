@@ -1,0 +1,29 @@
+<template>
+    <lightning-card>
+       
+            <lightning-layout multiple-rows>
+                <lightning-layout-item size="9" padding="around-small"></lightning-layout-item>
+                 <lightning-layout-item size="3" padding="around-small">
+                    <lightning-input 
+                        type="search" 
+                        onchange={searchContact} 
+                        placeholder="Search Contact here">
+                    </lightning-input>
+                </lightning-layout-item>
+                
+            </lightning-layout>
+                <lightning-datatable
+                    key-field="id"
+                    data={items}
+                    columns={columns}
+                    hide-checkbox-column="true"
+                    show-row-number-column="true"
+                    onrowaction={handleAction}
+                    sorted-by={sortedBy}
+                    sorted-direction={sortedDirection}
+                    onsort={onSort}
+                >
+                </lightning-datatable>
+            
+    </lightning-card>
+</template>
