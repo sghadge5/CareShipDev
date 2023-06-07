@@ -1,18 +1,25 @@
-# Salesforce DX Project: Next Steps
+**## DESCRIPTION**
+1) Implemnted the LWC datatable to display contact records
+2) Additionally implemented searching and sorting
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+**# COMPONENT LIST**
+Apex Class: 
+1) ContactController.cls
+2) ContactControllerTest.cls
+3) TestClassUtility.cls
 
-## How Do You Plan to Deploy Your Changes?
+Custom Label
+1) CustomLabels.labels-meta.xml
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+Lightning Component
+1) ContactList
 
-## Configure Your Salesforce DX Project
+Custom Tab
+1) Careship_Customers.tab-meta.xml
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+Custom App
+1) Careship.app-meta.xml
 
-## Read All About It
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+
+
